@@ -33,6 +33,8 @@
  }
  .div_l_logo img{
    position: absolute;
+   width: 34px;
+   height: 34px;
    left: 8%;
    top: 36%;
    border-radius: 50%;
@@ -76,6 +78,10 @@
  .table_1 button{
    position: absolute;
    left: 20px;
+ }
+ .pagination li{
+   width: 34px;
+   height: 34px;
  }
 
 </style>
@@ -177,7 +183,7 @@
   export default{
       data:function(){
         return{
-         
+
 
         };
       },
@@ -188,8 +194,8 @@
         insert_store(){
           this.$router.push({"name":"add_storeinfo"});
         },
-        
-        
+
+
       },
 
 
