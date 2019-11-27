@@ -139,7 +139,7 @@
 				<div style="text-align: left;font-size: 13px;font-weight: 800;height: 30px;">密码</div>
                 <input type="password" class="form-control" />
 				<div class="inp_a"><a href="">忘记密码?</a></div>
-				<div class="inp_btn"> <button  class="btn btn-success">登录 &nbsp;MgSupplier</button></div>
+				<div class="inp_btn"> <button  class="btn btn-success" @click="goinfo()" >登录 &nbsp;MgSupplier</button></div>
 				
 			</div>
 		</div>
@@ -161,7 +161,10 @@
 			},
 			gosignup(){
 				this.$router.push({"name":"signup"});
-			}
+			},
+			goinfo(){
+				this.$router.push({"name":"storeinfo"});
+		    },
 		},
 		mounted() {
 			
