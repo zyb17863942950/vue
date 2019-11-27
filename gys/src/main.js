@@ -8,7 +8,6 @@ import './assets/css/bootstrap.min.css'
 import './assets/js/bootstrap.min' 
 import './assets/css/font-awesome.min.css'
 
-
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
