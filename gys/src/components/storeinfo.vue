@@ -33,6 +33,8 @@
  }
  .div_l_logo img{
    position: absolute;
+   width: 34px;
+   height: 34px;
    left: 8%;
    top: 36%;
    border-radius: 50%;
@@ -77,11 +79,16 @@
    position: absolute;
    left: 20px;
  }
+ .pagination li{
+   width: 34px;
+   height: 34px;
+ }
 
 </style>
 
 <template>
   <div class="div1">
+    111
     <div class="div_l">
       <div class="div_l_logo">
         <img src="../assets/img/logo.jpg" />
@@ -177,7 +184,7 @@
   export default{
       data:function(){
         return{
-         
+
 
         };
       },
@@ -188,8 +195,8 @@
         insert_store(){
           this.$router.push({"name":"add_storeinfo"});
         },
-        
-        
+
+
       },
 
 
