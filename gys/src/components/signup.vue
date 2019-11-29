@@ -165,6 +165,8 @@
 								
 						}
 					})
+				}else{
+					alert("注册no")
 				}
 			},
 			
@@ -178,7 +180,6 @@
 				}
 				this.readysignup=true;
 				return this.readysignup;
-				console.log("redayok");
 			},
 			
 			codeConfirm(){
